@@ -1,0 +1,19 @@
+# Name File for MODFLOW created on 19-03-2026 by ModelMuse Version 5.4.0.0
+BEGIN OPTIONS
+  LIST ..\..\output\output.TS_19_chd\TS_19_chd.lst
+  NEWTON
+  PRINT_INPUT
+  SAVE_FLOWS
+END OPTIONS
+
+BEGIN PACKAGES
+  DISV6        ..\..\model\model.TS_19_chd\TS_19_chd.disv  DISV
+  IC6          ..\..\model\model.TS_19_chd\TS_19_chd.ic  IC
+  NPF6         ..\..\model\model.TS_19_chd\TS_19_chd.npf  NPF
+  GNC6         ..\..\model\model.TS_19_chd\TS_19_chd.gnc  GNC
+  STO6         ..\..\model\model.TS_19_chd\TS_19_chd.sto  STO
+  OC6          ..\..\model\model.TS_19_chd\TS_19_chd.oc  OC
+  CHD6         ..\..\model\model.TS_19_chd\TS_19_chd.chd  CHD-1
+  RIV6         ..\..\model\model.TS_19_chd\TS_19_chd.riv  RIV-1
+  RCH6         ..\..\model\model.TS_19_chd\TS_19_chd.rch  RCH-1
+END PACKAGES

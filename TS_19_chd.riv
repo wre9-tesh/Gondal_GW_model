@@ -1,0 +1,146 @@
+# RIV: River package file created on 19-03-2026 by ModelMuse version 5.4.0.0.
+BEGIN OPTIONS
+    AUXILIARY IFACE
+    BOUNDNAMES
+    PRINT_INPUT
+    SAVE_FLOWS
+    TS6 FILEIN TS_19_chd.riv.Group1.ts
+END OPTIONS
+
+BEGIN DIMENSIONS
+  MAXBOUND   130
+END DIMENSIONS
+
+BEGIN PERIOD      1
+     1   112 TS_1  1.745924733795E+002   1.348413433619E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1   111 TS_2  1.652994059414E+002   1.348279838571E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1   228 TS_3  3.398918793203E+002   1.348081272325E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1   345 TS_4  1.330229629705E+002   1.347895392388E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1   344 TS_5  2.068689163504E+002   1.347761797339E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1   461 TS_6  3.398918793209E+002   1.347546892131E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1   578 TS_7  9.145345255156E+001   1.347377351156E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1   577 TS_8  2.484384267688E+002   1.347243756107E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1   694 TS_9  3.398918793209E+002   1.347012511936E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1   811 TS_10  4.988394214198E+001   1.346859309924E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1   810 TS_11  2.862721800307E+002   1.346640000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1   927 TS_12  3.045878818587E+002   1.346344793846E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  1044 TS_13  3.045878818539E+002   1.345857507692E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  1161 TS_14  3.045878818729E+002   1.345370221538E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  1278 TS_15  9.838433848153E+001   1.345047879786E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  1277 TS_16  2.062035433819E+002   1.344804236709E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  1394 TS_17  3.045878818633E+002   1.344395649231E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  1511 TS_18  3.044789037622E+002   1.343700000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  1628 TS_19  3.030826800576E+002   1.343397524136E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  1745 TS_20  3.030826800576E+002   1.342869090626E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  1862 TS_21  3.030826800574E+002   1.342340657116E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  1979 TS_22  2.133438509099E+002   1.341890454742E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  1978 TS_23  8.973882914771E+001   1.341626237987E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  2095 TS_24  3.030826800576E+002   1.341283790096E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  2212 TS_25  3.030826800574E+002   1.340755356587E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  2329 TS_26  3.016988805638E+002   1.340200000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  2446 TS_27  3.000010723811E+002   1.339707914438E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  2563 TS_28  3.000010723672E+002   1.339189411765E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  2680 TS_29  3.000010723904E+002   1.338670909091E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  2797 TS_30  3.000010723718E+002   1.338152406417E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  2914 TS_31  3.009179879291E+002   1.337600000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  3031 TS_32  3.021108049814E+002   1.337081099690E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  3148 TS_33  3.021108049816E+002   1.336525895826E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  3265 TS_34  3.021108049814E+002   1.335970691963E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  3382 TS_35  3.673092390828E+001   1.335659338920E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  3383 TS_36  2.653798810733E+002   1.335381736988E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  3500 TS_37  3.021108049814E+002   1.334860284236E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  3617 TS_38  3.042674435389E+002   1.334280000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  3734 TS_39  3.068524756064E+002   1.333767515457E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  3851 TS_40  3.068524755970E+002   1.333230785047E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  3968 TS_41  2.631248145004E+002   1.332732297714E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  3969 TS_42  4.372766111553E+001   1.332463932509E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  4086 TS_43  3.068524755970E+002   1.332157324227E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  4203 TS_44  3.068524756066E+002   1.331620593817E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  4320 TS_45  3.194865649495E+002   1.331200000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  4437 TS_46  1.442087640209E+002   1.330972887246E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  4438 TS_47  1.802797798487E+002   1.330851900751E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  4555 TS_48  3.244885438697E+002   1.330663696418E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  4672 TS_49  2.824168475581E+002   1.330437409983E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  4673 TS_50  4.207169631154E+001   1.330316423489E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  4802 TS_51  3.244885438545E+002   1.330179750440E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  4985 TS_52  3.244885438848E+002   1.329937777452E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  5390 TS_53  9.613638722090E+001   1.329780946226E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  5391 TS_54  2.283521566488E+002   1.329659959732E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  6690 TS_55  3.244938328599E+002   1.329500000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  7989 TS_56  2.342755300366E+002   1.327779673457E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  7990 TS_57  9.022067014805E+001   1.326961859692E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1  9289 TS_58  3.244962001851E+002   1.325916666667E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 10588 TS_59  3.125618881911E+002   1.324500000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 11887 TS_60  3.056684928744E+002   1.323872337740E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 13186 TS_61  4.738870477514E+000   1.323591267909E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 13187 TS_62  3.009296224015E+002   1.323314489063E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 13592 TS_63  3.056684928792E+002   1.322765222356E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 13775 TS_64  3.056684928792E+002   1.322211664664E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 13904 TS_65  3.056684928744E+002   1.321658106971E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 14021 TS_66  3.056684928838E+002   1.321104549279E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 14138 TS_67  4.141908963832E+001   1.320790265986E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 14139 TS_68  2.605474546067E+002   1.320700000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 14256 TS_69  3.008556618411E+002   1.320042322451E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 14373 TS_70  3.008556618364E+002   1.319524132826E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 14490 TS_71  3.008556618272E+002   1.319005943202E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 14607 TS_72  3.007722567814E+002   1.318310000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 14724 TS_73  3.003243244143E+002   1.317871279070E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 14841 TS_74  3.003243244190E+002   1.317203486583E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 14958 TS_75  3.061712733837E+002   1.316770000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 15075 TS_76  3.071960840759E+002   1.316014346154E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 15192 TS_77  1.641081898485E+002   1.315585238535E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 15193 TS_78  1.430878942272E+002   1.315305546228E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 15310 TS_79  3.038578699133E+002   1.315000000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 15427 TS_80  3.023346655613E+002   1.314485874434E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 15544 TS_81  3.023346655707E+002   1.314052625566E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 15661 TS_82  3.022623668870E+002   1.313420000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 15778 TS_83  3.005185829280E+002   1.313177246606E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 15895 TS_84  3.010149685812E+002   1.312600000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 16012 TS_85  3.028126512007E+002   1.312076168929E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 16129 TS_86  2.167788263584E+002   1.311448822991E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 16130 TS_87  8.603382484704E+001   1.311083212131E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 16247 TS_88  3.015078118299E+002   1.310600000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 16364 TS_89  3.001011804413E+002   1.310101013986E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 16481 TS_90  3.001011804413E+002   1.309592482517E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 16598 TS_91  3.001011804413E+002   1.309083951049E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 16715 TS_92  3.000760605595E+002   1.308500000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 16832 TS_93  3.000297545159E+002   1.308030287107E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 16949 TS_94  3.000297545299E+002   1.307478781148E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 17066 TS_95  3.000297545345E+002   1.306927275190E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 17183 TS_96  3.011700450199E+002   1.306400000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 17300 TS_97  2.506799766585E+002   1.305924350843E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 17299 TS_98  5.144614811347E+001   1.305676305677E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 17416 TS_99  3.021261247767E+002   1.305386023289E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 17533 TS_100  3.021261247672E+002   1.304889932957E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 17650 TS_101  3.021261247719E+002   1.304393842625E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 17767 TS_102  3.021261247721E+002   1.303897752294E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 17884 TS_103  3.031211678868E+002   1.303500000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 18001 TS_104  3.035512264078E+002   1.302975921178E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 18118 TS_105  3.035512264030E+002   1.302538542260E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 18235 TS_106  9.882821468893E+001   1.302248653324E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 18234 TS_107  2.047230117093E+002   1.302029963865E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 18351 TS_108  3.023581271662E+002   1.301600000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 18468 TS_109  3.001824755976E+002   1.301099968694E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 18585 TS_110  3.001824756069E+002   1.300514566190E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 18702 TS_111  3.001824755976E+002   1.299929163685E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 18819 TS_112  3.001824756023E+002   1.299343761181E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 18936 TS_113  3.000790561906E+002   1.298900000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 19053 TS_114  3.000430879715E+002   1.298389745763E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 19170 TS_115  3.000430879715E+002   1.297978898305E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 19287 TS_116  3.022378861617E+002   1.297600000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 19404 TS_117  3.038418675490E+002   1.296958398024E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 19521 TS_118  1.091855607448E+002   1.296553781803E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 19522 TS_119  1.946563068136E+002   1.296256127604E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 19639 TS_120  3.038418675726E+002   1.295767781228E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 19756 TS_121  3.038418675536E+002   1.295172472830E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 19873 TS_122  3.038418675632E+002   1.294577164432E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 19990 TS_123  3.069807179368E+002   1.294120000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 20107 TS_124  2.641177403396E+002   1.293673645913E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 20108 TS_125  4.401185521407E+001   1.293481357452E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 20225 TS_126  3.081295955540E+002   1.293261603365E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 20342 TS_127  3.323651260640E+002   1.292800000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 20459 TS_128  1.511096417560E+002   1.292800000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 20460 TS_129  2.378828938363E+002   1.292800000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+     1 20577 TS_130  2.333965242876E+002   1.292800000000E+002      0 'River'  # Data Set 6: Layer cell2d Stage Cond Rbot IFACE boundname
+END PERIOD 
+
